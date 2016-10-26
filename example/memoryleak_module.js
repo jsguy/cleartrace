@@ -1,0 +1,24 @@
+var theThing = null;
+var replaceThing = function() {
+	var originalThing = theThing;
+	var unused = function () {
+		if (originalThing)
+			console.log("hi");
+	};
+	theThing = {
+		//longStr: new Array(1000000).join('*'),
+		someMethod: function () {
+			console.log(someMessage);
+		}
+	};
+};
+var someThing = function(cb){
+	setTimeout(function(){
+		cb('hello');
+	}, 3000);
+};
+
+module.exports = {
+	replaceThing: replaceThing,
+	someThing: someThing
+};

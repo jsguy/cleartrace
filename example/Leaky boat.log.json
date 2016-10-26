@@ -1,0 +1,857 @@
+[{"funcName":"replaceThing","before":{"date":1477477773964,"memory":{"rss":21012480,"heapTotal":7425376,"heapUsed":4637488}},"after":{"date":1477477773964,"memory":{"rss":21016576,"heapTotal":7425376,"heapUsed":4638048}},"rssdiff":4096,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477774966,"memory":{"rss":21016576,"heapTotal":7425376,"heapUsed":4638824}},"after":{"date":1477477774966,"memory":{"rss":21016576,"heapTotal":7425376,"heapUsed":4639384}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477775966,"memory":{"rss":21016576,"heapTotal":7425376,"heapUsed":4640008}},"after":{"date":1477477775967,"memory":{"rss":21016576,"heapTotal":7425376,"heapUsed":4640568}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477776967,"memory":{"rss":21024768,"heapTotal":7425376,"heapUsed":4642856}},"after":{"date":1477477776968,"memory":{"rss":21028864,"heapTotal":7425376,"heapUsed":4643416}},"rssdiff":4096,"appName":"Leaky boat"}],[{"funcName":"replaceThing","before":{"date":1477477778974,"memory":{"rss":21172224,"heapTotal":7425376,"heapUsed":4790576}},"after":{"date":1477477778974,"memory":{"rss":21172224,"heapTotal":7425376,"heapUsed":4791136}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477779974,"memory":{"rss":21176320,"heapTotal":7425376,"heapUsed":4791912}},"after":{"date":1477477779974,"memory":{"rss":21176320,"heapTotal":7425376,"heapUsed":4792472}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477780975,"memory":{"rss":21176320,"heapTotal":7425376,"heapUsed":4793096}},"after":{"date":1477477780976,"memory":{"rss":21176320,"heapTotal":7425376,"heapUsed":4793656}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477781976,"memory":{"rss":21176320,"heapTotal":7425376,"heapUsed":4794280}},"after":{"date":1477477781976,"memory":{"rss":21176320,"heapTotal":7425376,"heapUsed":4794840}},"rssdiff":0,"appName":"Leaky boat"}],[{"funcName":"replaceThing","before":{"date":1477477783982,"memory":{"rss":21327872,"heapTotal":7425376,"heapUsed":4941072}},"after":{"date":1477477783982,"memory":{"rss":21327872,"heapTotal":7425376,"heapUsed":4941632}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477784986,"memory":{"rss":21327872,"heapTotal":7425376,"heapUsed":4942408}},"after":{"date":1477477784987,"memory":{"rss":21331968,"heapTotal":7425376,"heapUsed":4944016}},"rssdiff":4096,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477785987,"memory":{"rss":21331968,"heapTotal":7425376,"heapUsed":4945448}},"after":{"date":1477477785987,"memory":{"rss":21331968,"heapTotal":7425376,"heapUsed":4946008}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477786991,"memory":{"rss":21331968,"heapTotal":7425376,"heapUsed":4946632}},"after":{"date":1477477786991,"memory":{"rss":21331968,"heapTotal":7425376,"heapUsed":4947192}},"rssdiff":0,"appName":"Leaky boat"}],[{"funcName":"replaceThing","before":{"date":1477477788994,"memory":{"rss":21385216,"heapTotal":7425376,"heapUsed":5000104}},"after":{"date":1477477788995,"memory":{"rss":21385216,"heapTotal":7425376,"heapUsed":5000664}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477790000,"memory":{"rss":21385216,"heapTotal":7425376,"heapUsed":5001440}},"after":{"date":1477477790000,"memory":{"rss":21385216,"heapTotal":7425376,"heapUsed":5002000}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477791001,"memory":{"rss":21385216,"heapTotal":7425376,"heapUsed":5002624}},"after":{"date":1477477791001,"memory":{"rss":21389312,"heapTotal":7425376,"heapUsed":5003184}},"rssdiff":4096,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477792002,"memory":{"rss":21389312,"heapTotal":7425376,"heapUsed":5003808}},"after":{"date":1477477792002,"memory":{"rss":21389312,"heapTotal":7425376,"heapUsed":5004368}},"rssdiff":0,"appName":"Leaky boat"}],[{"funcName":"replaceThing","before":{"date":1477477794006,"memory":{"rss":21536768,"heapTotal":7425376,"heapUsed":5156008}},"after":{"date":1477477794006,"memory":{"rss":21536768,"heapTotal":7425376,"heapUsed":5156568}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477795007,"memory":{"rss":21536768,"heapTotal":7425376,"heapUsed":5157344}},"after":{"date":1477477795007,"memory":{"rss":21536768,"heapTotal":7425376,"heapUsed":5157904}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477796008,"memory":{"rss":21536768,"heapTotal":7425376,"heapUsed":5158528}},"after":{"date":1477477796008,"memory":{"rss":21536768,"heapTotal":7425376,"heapUsed":5159088}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477797009,"memory":{"rss":21536768,"heapTotal":7425376,"heapUsed":5159712}},"after":{"date":1477477797010,"memory":{"rss":21553152,"heapTotal":7425376,"heapUsed":5162688}},"rssdiff":16384,"appName":"Leaky boat"}],[{"funcName":"replaceThing","before":{"date":1477477799026,"memory":{"rss":20762624,"heapTotal":7425376,"heapUsed":4361544}},"after":{"date":1477477799026,"memory":{"rss":20762624,"heapTotal":7425376,"heapUsed":4362072}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477800027,"memory":{"rss":20766720,"heapTotal":7425376,"heapUsed":4362816}},"after":{"date":1477477800027,"memory":{"rss":20766720,"heapTotal":7425376,"heapUsed":4363344}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477801030,"memory":{"rss":20766720,"heapTotal":7425376,"heapUsed":4363936}},"after":{"date":1477477801030,"memory":{"rss":20766720,"heapTotal":7425376,"heapUsed":4364464}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477802030,"memory":{"rss":20766720,"heapTotal":7425376,"heapUsed":4365056}},"after":{"date":1477477802030,"memory":{"rss":20766720,"heapTotal":7425376,"heapUsed":4365584}},"rssdiff":0,"appName":"Leaky boat"}],[{"funcName":"replaceThing","before":{"date":1477477804052,"memory":{"rss":21049344,"heapTotal":7425376,"heapUsed":4549888}},"after":{"date":1477477804052,"memory":{"rss":21049344,"heapTotal":7425376,"heapUsed":4550416}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477805054,"memory":{"rss":21049344,"heapTotal":7425376,"heapUsed":4551160}},"after":{"date":1477477805054,"memory":{"rss":21049344,"heapTotal":7425376,"heapUsed":4551688}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477806056,"memory":{"rss":21049344,"heapTotal":7425376,"heapUsed":4552280}},"after":{"date":1477477806056,"memory":{"rss":21049344,"heapTotal":7425376,"heapUsed":4552808}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477807058,"memory":{"rss":21053440,"heapTotal":7425376,"heapUsed":4553400}},"after":{"date":1477477807058,"memory":{"rss":21053440,"heapTotal":7425376,"heapUsed":4553928}},"rssdiff":0,"appName":"Leaky boat"}],[{"funcName":"replaceThing","before":{"date":1477477809066,"memory":{"rss":21204992,"heapTotal":7425376,"heapUsed":4703248}},"after":{"date":1477477809066,"memory":{"rss":21204992,"heapTotal":7425376,"heapUsed":4703776}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477810067,"memory":{"rss":21204992,"heapTotal":7425376,"heapUsed":4704520}},"after":{"date":1477477810067,"memory":{"rss":21204992,"heapTotal":7425376,"heapUsed":4705048}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477811068,"memory":{"rss":21209088,"heapTotal":7425376,"heapUsed":4705640}},"after":{"date":1477477811069,"memory":{"rss":21209088,"heapTotal":7425376,"heapUsed":4706168}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477812069,"memory":{"rss":21209088,"heapTotal":7425376,"heapUsed":4706760}},"after":{"date":1477477812069,"memory":{"rss":21209088,"heapTotal":7425376,"heapUsed":4707288}},"rssdiff":0,"appName":"Leaky boat"}],[{"funcName":"replaceThing","before":{"date":1477477814073,"memory":{"rss":21356544,"heapTotal":7425376,"heapUsed":4856816}},"after":{"date":1477477814073,"memory":{"rss":21360640,"heapTotal":7425376,"heapUsed":4857344}},"rssdiff":4096,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477815074,"memory":{"rss":21360640,"heapTotal":7425376,"heapUsed":4858088}},"after":{"date":1477477815074,"memory":{"rss":21360640,"heapTotal":7425376,"heapUsed":4858616}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477816074,"memory":{"rss":21360640,"heapTotal":7425376,"heapUsed":4859208}},"after":{"date":1477477816074,"memory":{"rss":21360640,"heapTotal":7425376,"heapUsed":4859736}},"rssdiff":0,"appName":"Leaky boat"},{"funcName":"replaceThing","before":{"date":1477477817075,"memory":{"rss":21360640,"heapTotal":7425376,"heapUsed":4860328}},"after":{"date":1477477817075,"memory":{"rss":21360640,"heapTotal":7425376,"heapUsed":4860856}},"rssdiff":0,"appName":"Leaky boat"}],
+[
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477819079,
+            "memory": {
+                "rss": 21512192,
+                "heapTotal": 7425376,
+                "heapUsed": 5011208
+            }
+        },
+        "after": {
+            "date": 1477477819079,
+            "memory": {
+                "rss": 21512192,
+                "heapTotal": 7425376,
+                "heapUsed": 5011736
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477820084,
+            "memory": {
+                "rss": 21512192,
+                "heapTotal": 7425376,
+                "heapUsed": 5012480
+            }
+        },
+        "after": {
+            "date": 1477477820085,
+            "memory": {
+                "rss": 21512192,
+                "heapTotal": 7425376,
+                "heapUsed": 5013008
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477821087,
+            "memory": {
+                "rss": 21512192,
+                "heapTotal": 7425376,
+                "heapUsed": 5013600
+            }
+        },
+        "after": {
+            "date": 1477477821087,
+            "memory": {
+                "rss": 21512192,
+                "heapTotal": 7425376,
+                "heapUsed": 5014128
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477822088,
+            "memory": {
+                "rss": 21516288,
+                "heapTotal": 7425376,
+                "heapUsed": 5014720
+            }
+        },
+        "after": {
+            "date": 1477477822088,
+            "memory": {
+                "rss": 21516288,
+                "heapTotal": 7425376,
+                "heapUsed": 5015248
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    }
+],
+[
+    {
+        "funcName": "someThing",
+        "before": {
+            "date": 1477477828180,
+            "memory": {
+                "rss": 19595264,
+                "heapTotal": 7408736,
+                "heapUsed": 3832912
+            }
+        },
+        "after": {
+            "date": 1477477828180,
+            "memory": {
+                "rss": 19623936,
+                "heapTotal": 7408736,
+                "heapUsed": 3855440
+            }
+        },
+        "rssdiff": 28672,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477829180,
+            "memory": {
+                "rss": 19652608,
+                "heapTotal": 7408736,
+                "heapUsed": 3874912
+            }
+        },
+        "after": {
+            "date": 1477477829181,
+            "memory": {
+                "rss": 19652608,
+                "heapTotal": 7408736,
+                "heapUsed": 3877416
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477830186,
+            "memory": {
+                "rss": 19673088,
+                "heapTotal": 7408736,
+                "heapUsed": 3886448
+            }
+        },
+        "after": {
+            "date": 1477477830186,
+            "memory": {
+                "rss": 19677184,
+                "heapTotal": 7408736,
+                "heapUsed": 3887320
+            }
+        },
+        "rssdiff": 4096,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "callbackMeister",
+        "before": {
+            "date": 1477477828180,
+            "memory": {
+                "rss": 19591168,
+                "heapTotal": 7408736,
+                "heapUsed": 3828184
+            }
+        },
+        "after": {
+            "date": 1477477831212,
+            "memory": {
+                "rss": 20406272,
+                "heapTotal": 6393440,
+                "heapUsed": 3789648
+            }
+        },
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477831212,
+            "memory": {
+                "rss": 20414464,
+                "heapTotal": 6393440,
+                "heapUsed": 3795280
+            }
+        },
+        "after": {
+            "date": 1477477831212,
+            "memory": {
+                "rss": 20414464,
+                "heapTotal": 6393440,
+                "heapUsed": 3795840
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477832213,
+            "memory": {
+                "rss": 20414464,
+                "heapTotal": 6393440,
+                "heapUsed": 3796464
+            }
+        },
+        "after": {
+            "date": 1477477832213,
+            "memory": {
+                "rss": 20414464,
+                "heapTotal": 6393440,
+                "heapUsed": 3797024
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    }
+],
+[
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477834230,
+            "memory": {
+                "rss": 20856832,
+                "heapTotal": 6393440,
+                "heapUsed": 4197768
+            }
+        },
+        "after": {
+            "date": 1477477834230,
+            "memory": {
+                "rss": 20856832,
+                "heapTotal": 6393440,
+                "heapUsed": 4198328
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477835232,
+            "memory": {
+                "rss": 20856832,
+                "heapTotal": 6393440,
+                "heapUsed": 4199152
+            }
+        },
+        "after": {
+            "date": 1477477835232,
+            "memory": {
+                "rss": 20856832,
+                "heapTotal": 6393440,
+                "heapUsed": 4199712
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477836234,
+            "memory": {
+                "rss": 20856832,
+                "heapTotal": 6393440,
+                "heapUsed": 4200336
+            }
+        },
+        "after": {
+            "date": 1477477836234,
+            "memory": {
+                "rss": 20856832,
+                "heapTotal": 6393440,
+                "heapUsed": 4200896
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477837234,
+            "memory": {
+                "rss": 20856832,
+                "heapTotal": 6393440,
+                "heapUsed": 4201520
+            }
+        },
+        "after": {
+            "date": 1477477837235,
+            "memory": {
+                "rss": 20856832,
+                "heapTotal": 6393440,
+                "heapUsed": 4202080
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    }
+],
+[
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477839241,
+            "memory": {
+                "rss": 20865024,
+                "heapTotal": 6393440,
+                "heapUsed": 4259816
+            }
+        },
+        "after": {
+            "date": 1477477839241,
+            "memory": {
+                "rss": 20865024,
+                "heapTotal": 6393440,
+                "heapUsed": 4260376
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477840242,
+            "memory": {
+                "rss": 20865024,
+                "heapTotal": 6393440,
+                "heapUsed": 4261152
+            }
+        },
+        "after": {
+            "date": 1477477840242,
+            "memory": {
+                "rss": 20865024,
+                "heapTotal": 6393440,
+                "heapUsed": 4261712
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477841245,
+            "memory": {
+                "rss": 20865024,
+                "heapTotal": 6393440,
+                "heapUsed": 4262336
+            }
+        },
+        "after": {
+            "date": 1477477841245,
+            "memory": {
+                "rss": 20865024,
+                "heapTotal": 6393440,
+                "heapUsed": 4262896
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477842249,
+            "memory": {
+                "rss": 20865024,
+                "heapTotal": 6393440,
+                "heapUsed": 4263520
+            }
+        },
+        "after": {
+            "date": 1477477842249,
+            "memory": {
+                "rss": 20865024,
+                "heapTotal": 6393440,
+                "heapUsed": 4264080
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    }
+],
+[
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477844256,
+            "memory": {
+                "rss": 20865024,
+                "heapTotal": 6393440,
+                "heapUsed": 4317048
+            }
+        },
+        "after": {
+            "date": 1477477844257,
+            "memory": {
+                "rss": 20865024,
+                "heapTotal": 6393440,
+                "heapUsed": 4317608
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477845257,
+            "memory": {
+                "rss": 20865024,
+                "heapTotal": 6393440,
+                "heapUsed": 4318384
+            }
+        },
+        "after": {
+            "date": 1477477845257,
+            "memory": {
+                "rss": 20865024,
+                "heapTotal": 6393440,
+                "heapUsed": 4318944
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477846258,
+            "memory": {
+                "rss": 20865024,
+                "heapTotal": 6393440,
+                "heapUsed": 4319568
+            }
+        },
+        "after": {
+            "date": 1477477846258,
+            "memory": {
+                "rss": 20865024,
+                "heapTotal": 6393440,
+                "heapUsed": 4320128
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477847260,
+            "memory": {
+                "rss": 20865024,
+                "heapTotal": 6393440,
+                "heapUsed": 4320752
+            }
+        },
+        "after": {
+            "date": 1477477847260,
+            "memory": {
+                "rss": 20865024,
+                "heapTotal": 6393440,
+                "heapUsed": 4321312
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    }
+],
+[
+    {
+        "funcName": "someThing",
+        "before": {
+            "date": 1477477849128,
+            "memory": {
+                "rss": 19513344,
+                "heapTotal": 7408736,
+                "heapUsed": 3832880
+            }
+        },
+        "after": {
+            "date": 1477477849128,
+            "memory": {
+                "rss": 19542016,
+                "heapTotal": 7408736,
+                "heapUsed": 3855408
+            }
+        },
+        "rssdiff": 28672,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477850128,
+            "memory": {
+                "rss": 19570688,
+                "heapTotal": 7408736,
+                "heapUsed": 3874696
+            }
+        },
+        "after": {
+            "date": 1477477850128,
+            "memory": {
+                "rss": 19570688,
+                "heapTotal": 7408736,
+                "heapUsed": 3877200
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477851134,
+            "memory": {
+                "rss": 19591168,
+                "heapTotal": 7408736,
+                "heapUsed": 3886232
+            }
+        },
+        "after": {
+            "date": 1477477851134,
+            "memory": {
+                "rss": 19591168,
+                "heapTotal": 7408736,
+                "heapUsed": 3887104
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "callbackMeister",
+        "before": {
+            "date": 1477477849127,
+            "memory": {
+                "rss": 19509248,
+                "heapTotal": 7408736,
+                "heapUsed": 3828152
+            }
+        },
+        "after": {
+            "date": 1477477852154,
+            "memory": {
+                "rss": 20275200,
+                "heapTotal": 6393440,
+                "heapUsed": 3789432
+            }
+        },
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477852155,
+            "memory": {
+                "rss": 20283392,
+                "heapTotal": 6393440,
+                "heapUsed": 3795064
+            }
+        },
+        "after": {
+            "date": 1477477852155,
+            "memory": {
+                "rss": 20283392,
+                "heapTotal": 6393440,
+                "heapUsed": 3795624
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477853156,
+            "memory": {
+                "rss": 20283392,
+                "heapTotal": 6393440,
+                "heapUsed": 3796248
+            }
+        },
+        "after": {
+            "date": 1477477853156,
+            "memory": {
+                "rss": 20283392,
+                "heapTotal": 6393440,
+                "heapUsed": 3796808
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    }
+],
+[
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477855172,
+            "memory": {
+                "rss": 20684800,
+                "heapTotal": 6393440,
+                "heapUsed": 4183288
+            }
+        },
+        "after": {
+            "date": 1477477855172,
+            "memory": {
+                "rss": 20684800,
+                "heapTotal": 6393440,
+                "heapUsed": 4183848
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477856176,
+            "memory": {
+                "rss": 20684800,
+                "heapTotal": 6393440,
+                "heapUsed": 4184672
+            }
+        },
+        "after": {
+            "date": 1477477856176,
+            "memory": {
+                "rss": 20684800,
+                "heapTotal": 6393440,
+                "heapUsed": 4185232
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477857178,
+            "memory": {
+                "rss": 20684800,
+                "heapTotal": 6393440,
+                "heapUsed": 4185856
+            }
+        },
+        "after": {
+            "date": 1477477857178,
+            "memory": {
+                "rss": 20684800,
+                "heapTotal": 6393440,
+                "heapUsed": 4186416
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477858178,
+            "memory": {
+                "rss": 20684800,
+                "heapTotal": 6393440,
+                "heapUsed": 4187040
+            }
+        },
+        "after": {
+            "date": 1477477858178,
+            "memory": {
+                "rss": 20684800,
+                "heapTotal": 6393440,
+                "heapUsed": 4187600
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    }
+],
+[
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477860181,
+            "memory": {
+                "rss": 20692992,
+                "heapTotal": 6393440,
+                "heapUsed": 4243976
+            }
+        },
+        "after": {
+            "date": 1477477860181,
+            "memory": {
+                "rss": 20692992,
+                "heapTotal": 6393440,
+                "heapUsed": 4244536
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477861183,
+            "memory": {
+                "rss": 20692992,
+                "heapTotal": 6393440,
+                "heapUsed": 4245312
+            }
+        },
+        "after": {
+            "date": 1477477861183,
+            "memory": {
+                "rss": 20692992,
+                "heapTotal": 6393440,
+                "heapUsed": 4245872
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477862183,
+            "memory": {
+                "rss": 20692992,
+                "heapTotal": 6393440,
+                "heapUsed": 4246496
+            }
+        },
+        "after": {
+            "date": 1477477862183,
+            "memory": {
+                "rss": 20692992,
+                "heapTotal": 6393440,
+                "heapUsed": 4247056
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477863189,
+            "memory": {
+                "rss": 20692992,
+                "heapTotal": 6393440,
+                "heapUsed": 4247680
+            }
+        },
+        "after": {
+            "date": 1477477863189,
+            "memory": {
+                "rss": 20692992,
+                "heapTotal": 6393440,
+                "heapUsed": 4248240
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    }
+],
+[
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477865193,
+            "memory": {
+                "rss": 20697088,
+                "heapTotal": 6393440,
+                "heapUsed": 4300096
+            }
+        },
+        "after": {
+            "date": 1477477865193,
+            "memory": {
+                "rss": 20697088,
+                "heapTotal": 6393440,
+                "heapUsed": 4300656
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477866193,
+            "memory": {
+                "rss": 20697088,
+                "heapTotal": 6393440,
+                "heapUsed": 4301432
+            }
+        },
+        "after": {
+            "date": 1477477866193,
+            "memory": {
+                "rss": 20697088,
+                "heapTotal": 6393440,
+                "heapUsed": 4301992
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477867193,
+            "memory": {
+                "rss": 20697088,
+                "heapTotal": 6393440,
+                "heapUsed": 4302616
+            }
+        },
+        "after": {
+            "date": 1477477867193,
+            "memory": {
+                "rss": 20697088,
+                "heapTotal": 6393440,
+                "heapUsed": 4303176
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    },
+    {
+        "funcName": "replaceThing",
+        "before": {
+            "date": 1477477868194,
+            "memory": {
+                "rss": 20697088,
+                "heapTotal": 6393440,
+                "heapUsed": 4303800
+            }
+        },
+        "after": {
+            "date": 1477477868194,
+            "memory": {
+                "rss": 20697088,
+                "heapTotal": 6393440,
+                "heapUsed": 4304360
+            }
+        },
+        "rssdiff": 0,
+        "appName": "Leaky boat"
+    }
+]
