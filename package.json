@@ -21,7 +21,7 @@
   "homepage": "https://github.com/jsguy/cleartrace#readme",
   "dependencies": {
     "bunyan": "^1.8.3",
-    "os-monitor": "^1.0.4",
+    "minimist": "^1.2.0",
     "v8-profiler": "^5.6.5"
   }
 }
