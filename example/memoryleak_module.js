@@ -14,7 +14,7 @@ var replaceThing = function() {
 };
 var someThing = function(cb){
 	setTimeout(function(){
-		cb('hello');
+		cb('from someThing');
 	}, 3000);
 };
 
