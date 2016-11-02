@@ -6,6 +6,7 @@ var replaceThing = function() {
 			console.log("hi");
 	};
 	theThing = {
+		//	This is the leak
 		longStr: new Array(1000000).join('*'),
 		someMethod: function () {
 			console.log(someMessage);

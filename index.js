@@ -14,9 +14,8 @@ var fs = require('fs'),
 		log: {
 			path: "./",
 			name: "log.json",
-			maxSizeMb: 10,
-			tabsize: 4,
-			rotate: true
+			period: "1d",
+			count: 10
 		},
 		writeInterval: 5,
 		cpu: {
@@ -25,8 +24,9 @@ var fs = require('fs'),
 		heap: {
 			autoStart: false
 		},
-		proxy: {},
-		async: {}
+		proxy: {
+			autoStart: true
+		}
 	},
 	log,
 	emit = function(obj){
@@ -54,8 +54,8 @@ module.exports.init = function (args) {
 		streams: [{
 			type: 'rotating-file',
         	path: options.log.path + options.appName + "." +options.log.name,
-	        period: '1d',
-    	    count: 10
+	        period: options.log.period,
+    	    count: options.log.count
     	}]
     });
 
@@ -64,13 +64,13 @@ module.exports.init = function (args) {
     requireproxy.init(options.proxy, emit);
 
     return {
-    	async: asyncproxy.init(options.async, emit),
+    	async: asyncproxy.init(emit),
     	cpu: cpuProfiler,
     	heap: heapProfiler
     };
 };
 
-//	Run the log parser if there's any arguments
-if(process.argv.length > 2) {
+//	If via command line, pass to logparser
+if (require.main === module) {
 	logparser();
 }
