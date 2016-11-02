@@ -21,6 +21,7 @@
   "homepage": "https://github.com/jsguy/cleartrace#readme",
   "dependencies": {
     "bunyan": "^1.8.3",
+    "bunyan-rotating-file-stream": "^1.6.1",
     "minimist": "^1.2.0",
     "v8-profiler": "^5.6.5"
   }

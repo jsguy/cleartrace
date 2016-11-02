@@ -3,6 +3,7 @@
 //
 var fs = require('fs'),
 	bunyan = require('bunyan'),
+	RotatingFileStream = require('bunyan-rotating-file-stream'),
 	cpu = require('./lib/cpu.js'),
 	heap = require('./lib/heap.js'),
 	util = require('./lib/util.js'),
@@ -15,7 +16,11 @@ var fs = require('fs'),
 			path: "./",
 			name: "log.json",
 			period: "1d",
-			count: 10
+			totalFiles: 10,
+			rotateExisting: true,
+			totalSize: "100m",
+			threshold: "10m",
+			gzip: true
 		},
 		writeInterval: 5,
 		cpu: {
@@ -48,15 +53,21 @@ module.exports.init = function (args) {
 	var cpuProfiler = cpu.init(options.cpu),
 		heapProfiler = heap.init(options.heap);
 
-	//	Setup bunyan
+	//	Setup bunyan with a rotating file stream
 	log = bunyan.createLogger({
 		name: options.appName,
 		streams: [{
-			type: 'rotating-file',
-        	path: options.log.path + options.appName + "." +options.log.name,
-	        period: options.log.period,
-    	    count: options.log.count
-    	}]
+            type: 'raw',
+            stream: new RotatingFileStream({
+	        	path: options.log.path + options.appName + "." +options.log.name,
+		        period: options.log.period,
+	    	    totalFiles: options.log.totalFiles,
+                rotateExisting: options.log.rotateExisting,
+                threshold: options.log.threshold,
+                totalSize: options.log.totalSize,
+                gzip: options.log.gzip
+            })
+        }]
     });
 
 	//	Setup the require proxy last, so 

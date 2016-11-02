@@ -4,8 +4,10 @@ Identify memory and processor usage of functions and modules in node.js
 
 ## Installation
 
+It is recommended to install cleartrace globally, so you get access to the log parsing functionality
+
 ```javascript
-npm install cleartrace
+npm install cleartrace -g
 ```
 
 ## Getting started
@@ -24,8 +26,12 @@ You can set the following options
 * **log** - An object that configures the logging
 	* **path** - Where to store the log, default is "./"
 	* **name** - Base name of the file, it will be appName + log.name, default is "log.json"
-	* **period** - how often to rotate the logs, default is "1d"
-	* **count** - how many log files to keep, default is 10
+	* **period** - How often to rotate the logs, default is "1d"
+	* **totalFiles** - How many log files to keep, default is 10
+	* **rotateExisting** - Do we rotate existing files, default is true
+	* **totalSize** - How much space to allow in total for all log files, default is "100m"
+	* **threshold** - How much space to allow per file, default is "10m"
+	* **gzip** - Should we gzip rotated files, default is true
 * **proxy** - An object to configure how the proxy works
 	* **autoStart** - Should we start capturing proxied info straight away, default is true
 
@@ -59,3 +65,28 @@ var wontBeTracedCallback = ct.async(callbackFunction);
 myAsyncFunction(wontBeTracedCallback);
 ```
 
+## Parsing the logs
+
+In order to parse the log, and find useful information, you can use cleartrace from the commandline. 
+
+### Examples
+
+Find top 10 slowest functions
+
+```bash
+cleartrace app.log.json -l 10
+```
+
+Find top 10 memory use functions
+
+```bash
+cleartrace app.log.json -s rss -l 10
+```
+
+Find top 50 rss memory usage for a particular function ('readFileSync'), show results in JSON format
+
+```bash
+cleartrace app.log.json -s rss -f 'funcName' -n readFileSync -l 50 -d json
+```
+
+Run the tool on the commandline for more details on how to use it.
