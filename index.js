@@ -8,10 +8,11 @@ var fs = require('fs'),
 	heap = require('./lib/heap.js'),
 	util = require('./lib/util.js'),
 	logparser = require('./lib/logparser.js'),
+	//	We always load this proxy, though you can set it to not autostart
 	requireproxy = require('./lib/proxies/require.proxy.js'),
-	asyncproxy = require('./lib/proxies/async.proxy.js'),
 	options = {
 		appName: null,
+		proxies: ['async'],
 		log: {
 			path: "./",
 			name: "log.json",
@@ -34,6 +35,7 @@ var fs = require('fs'),
 		}
 	},
 	log,
+	isInitialised = false,
 	emit = function(obj){
 		obj = obj || {};
 		obj.appName = obj.appName || options.appName;
@@ -42,6 +44,11 @@ var fs = require('fs'),
 
 //  Init and schedule profiler runs
 module.exports.init = function (args) {
+	if(isInitialised) {
+		console.warn("Cleartrace: was already initialised, aborting.")
+		return false;
+	}
+	isInitialised = true;
 	args = args || {};
 	options = util.def(options, args);
 
@@ -51,7 +58,8 @@ module.exports.init = function (args) {
 
 	//	Grab the cpu and heap tracker
 	var cpuProfiler = cpu.init(options.cpu),
-		heapProfiler = heap.init(options.heap);
+		heapProfiler = heap.init(options.heap),
+		result = {};
 
 	//	Setup bunyan with a rotating file stream
 	log = bunyan.createLogger({
@@ -70,15 +78,30 @@ module.exports.init = function (args) {
         }]
     });
 
+	//	Grab any extra proxies
+	for(var i = 0; i < options.proxies; i += 1) {
+		var proxyPath = './lib/proxies/' + options.proxies[i] + '.proxy.js';
+		try {
+			fs.accessSync(proxyPath);
+		} catch (e) {
+			// Must be external
+			proxyPath = options.proxies[i];
+		}
+		result[options.proxies[i]] = require(proxyPath);
+
+		//	Initialise our proxy
+		result[options.proxies[i]].init(emit);
+	}
+
 	//	Setup the require proxy last, so 
 	//	nothing is logged incorrectly
     requireproxy.init(options.proxy, emit);
 
-    return {
-    	async: asyncproxy.init(emit),
-    	cpu: cpuProfiler,
-    	heap: heapProfiler
-    };
+    result.require = requireproxy;
+	result.cpu = cpuProfiler;
+    result.heap = heapProfiler;
+
+    return result;
 };
 
 //	If via command line, pass to logparser

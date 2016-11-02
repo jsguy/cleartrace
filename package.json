@@ -1,6 +1,6 @@
 {
   "name": "cleartrace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Identify memory and processor usage of functions and modules in node.js",
   "main": "index.js",
   "directories": {
