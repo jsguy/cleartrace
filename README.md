@@ -12,7 +12,7 @@ npm install cleartrace -g
 
 ## Getting started
 
-Make sure your require and initialise cleartrace as THE FIRST MODULE, otherwise it won't trace modules that were loaded before it.
+**NOTE:** Make sure your require and initialise cleartrace as __THE FIRST MODULE__, as it won't trace the modules that were loaded before it.
 
 ```javascript
 var ct = require('cleartrace').init({
