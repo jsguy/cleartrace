@@ -1,4 +1,4 @@
-# ClearTrace
+# Cleartrace
 
 Identify memory and processor usage of functions and modules in node.js
 
