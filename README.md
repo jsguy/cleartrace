@@ -32,8 +32,9 @@ You can set the following options
 	* **totalSize** - How much space to allow in total for all log files, default is "100m"
 	* **threshold** - How much space to allow per file, default is "10m"
 	* **gzip** - Should we gzip rotated files, default is true
-* **proxy** - An object to configure how the proxy works
+* **proxy** - An object to configure how the 'require' proxy works
 	* **autoStart** - Should we start capturing proxied info straight away, default is true
+* **proxies** - An array of other proxies to load, default is ['async'], you can add custom proxies here
 
 ## Usage
 
@@ -117,4 +118,4 @@ cleartrace myApp.log.json -s rss -f 'funcName' -n 'myFunction' -l 3 -d json
 
 As you can see, in JSON format, we get all the details - you can use this to create graphs or export the data for a dashboard, etc...
 
-**NOTE:** Run the tool on the commandline for more details on how to use it.
+**NOTE:** Run the tool on the commandline for more details on how to use it, theres also the option to execute bespoke reports, see /lib/reports/memoryleak.report.js for an example.
