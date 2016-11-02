@@ -57,7 +57,7 @@ myAsyncFunction(ct.async(callbackFunction, {
 }));
 ```
 
-**Note:** This MUST be called inline, ie: don't call it before the callback would normally be called, so stuff like this won't work:
+**NOTE:** This MUST be called inline, ie: don't call it before the callback would normally be called, so stuff like this won't work:
 
 ```javascript
 //	THIS WON'T WORK, SO DON'T DO IT!
@@ -71,22 +71,50 @@ In order to parse the log, and find useful information, you can use cleartrace f
 
 ### Examples
 
-Find top 10 slowest functions
+Find top 3 slowest functions
 
 ```bash
-cleartrace app.log.json -l 10
+cleartrace myApp.log.json -l 3
 ```
 
-Find top 10 memory use functions
+Output:
+
+```
+myApp.myFunction	556.0 kB	209ms
+myApp.myFunction	528.0 kB	198ms
+myApp.myFunction	432.0 kB	128ms
+```
+
+The columns shown are: method, rss, time
+
+Find top 3 memory use functions
 
 ```bash
-cleartrace app.log.json -s rss -l 10
+cleartrace myApp.log.json -s rss -l 3
 ```
 
-Find top 50 rss memory usage for a particular function ('readFileSync'), show results in JSON format
+Output:
+
+```
+myApp.myFunction	1256.0 kB	209ms
+myApp.myFunction	1238.2 kB	198ms
+myApp.myFunction	1211.4 kB	128ms
+```
+
+Find top 3 rss memory usage for a particular function ('myFunction'), show results in JSON format
 
 ```bash
-cleartrace app.log.json -s rss -f 'funcName' -n readFileSync -l 50 -d json
+cleartrace myApp.log.json -s rss -f 'funcName' -n 'myFunction' -l 3 -d json
 ```
 
-Run the tool on the commandline for more details on how to use it.
+```json
+[
+{"name":"myApp","hostname":"localhost","pid":10815,"level":30,"origin":"object","filename":"/myApp/app.js","funcName":"myFunction","before":{"time":"2016-11-02T05:10:32.108Z","memory":{"rss":64540672,"heapTotal":54915424,"heapUsed":24459040}},"indent":1992,"after":{"time":"2016-11-02T05:10:32.109Z","memory":{"rss":64610304,"heapTotal":54915424,"heapUsed":24527704}},"rssdiff":69632,"appName":"myApp","msg":"","time":"2016-11-02T05:10:32.109Z","v":0},
+{"name":"myApp","hostname":"localhost","pid":10815,"level":30,"origin":"object","filename":"/myApp/app.js","funcName":"myFunction","before":{"time":"2016-11-02T05:10:48.008Z","memory":{"rss":74342400,"heapTotal":54915424,"heapUsed":26868360}},"indent":2943,"after":{"time":"2016-11-02T05:10:48.009Z","memory":{"rss":74412032,"heapTotal":54915424,"heapUsed":26939008}},"rssdiff":69632,"appName":"myApp","msg":"","time":"2016-11-02T05:10:48.009Z","v":0},
+{"name":"myApp","hostname":"localhost","pid":10815,"level":30,"origin":"object","filename":"/myApp/app.js","funcName":"myFunction","before":{"time":"2016-11-02T05:10:34.239Z","memory":{"rss":66646016,"heapTotal":54915424,"heapUsed":26611704}},"indent":2104,"after":{"time":"2016-11-02T05:10:34.239Z","memory":{"rss":66711552,"heapTotal":54915424,"heapUsed":26680256}},"rssdiff":65536,"appName":"myApp","msg":"","time":"2016-11-02T05:10:34.239Z","v":0}
+]
+```
+
+As you can see, in JSON format, we get all the details - you can use this to create graphs or export the data for a dashboard, etc...
+
+**NOTE:** Run the tool on the commandline for more details on how to use it.
