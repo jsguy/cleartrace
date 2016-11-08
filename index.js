@@ -32,7 +32,9 @@ var fs = require('fs'),
 		},
 		proxy: {
 			autoStart: true,
-			useNativeProxy: true
+			useNativeProxy: true,
+			nodeModules: "node_modules",
+			skipNodeModules: true
 		}
 	},
 	log,

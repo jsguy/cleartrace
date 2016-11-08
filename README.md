@@ -34,6 +34,9 @@ You can set the following options
 	* **gzip** - Should we gzip rotated files, default is true
 * **proxy** - An object to configure how the 'require' proxy works
 	* **autoStart** - Should we start capturing proxied info straight away, default is true
+	* **skipNodeModules** - Should we skip any files in the node modules directory, default is true
+	* **skipNodeModules** - Should we skip any files in the node modules directory, default is true
+	* **nodeModules** - path to search in a filename, for skipping, default is "node_modules"
 	* **useNativeProxy** - Should we use the native Proxy function to track modifications on the original module. Set to false if you're having issues with functions not being able to be cast toString, default is true
 * **proxies** - An array of other proxies to load, default is ['async'], you can add custom proxies here
 
