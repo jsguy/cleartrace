@@ -31,7 +31,8 @@ var fs = require('fs'),
 			autoStart: false
 		},
 		proxy: {
-			autoStart: true
+			autoStart: true,
+			useNativeProxy: true
 		}
 	},
 	log,
