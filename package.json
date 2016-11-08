@@ -19,6 +19,9 @@
     "url": "https://github.com/jsguy/cleartrace/issues"
   },
   "homepage": "https://github.com/jsguy/cleartrace#readme",
+  "engines": {
+    "node" : ">=6.9.1"
+  },
   "dependencies": {
     "bunyan": "^1.8.3",
     "bunyan-rotating-file-stream": "^1.6.1",
