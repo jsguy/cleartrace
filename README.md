@@ -72,7 +72,7 @@ myAsyncFunction(wontBeTracedCallback);
 
 ## Parsing the logs
 
-In order to parse the log, and find useful information, you can use cleartrace from the commandline. 
+In order to parse the log, and find useful information, you can use cleartrace from the commandline.
 
 ### Examples
 
@@ -123,3 +123,21 @@ cleartrace myApp.log.json -s rss -f 'funcName' -n 'myFunction' -l 3 -d json
 As you can see, in JSON format, we get all the details - you can use this to create graphs or export the data for a dashboard, etc...
 
 **NOTE:** Run the tool on the commandline for more details on how to use it, theres also the option to execute bespoke reports, see /lib/reports/memoryleak.report.js for an example.
+
+## Proxies
+
+There are currently two proxies included: `require` and `async`, you can make your own proxy if you so desire, be sure to look through `lib/proxy.js`, it has the following convenience methods:
+
+* **proxies.after** - this proxy runs after the original method has been run
+* **proxies.around** - this proxy runs both before and after the method is run, ie: so you can capture info before and after the method is run
+* **proxies.async.around**  - this proxy runs both before and after the method is run, ie: so you can capture info before and after the method is run, it assumes that the method you're running is asynchronous, so that it calls the `before` method immediately, then the `after` method immediately after the asynchronous method is called.
+
+The expected arguments are:
+
+```javascript
+proxy(args, emit)
+```
+
+Where `args` is an object with arguments, and `emit` is a the function that is used to emit logging information.
+
+**Note:** Check the `lib/proxies` directory for example proxies.

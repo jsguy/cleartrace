@@ -1,18 +1,21 @@
-//	
+//
 //	Cleartrace - get insight into your node app
 //
 var fs = require('fs'),
+	path = require('path'),
 	bunyan = require('bunyan'),
 	RotatingFileStream = require('bunyan-rotating-file-stream'),
 	cpu = require('./lib/cpu.js'),
 	heap = require('./lib/heap.js'),
 	util = require('./lib/util.js'),
 	logparser = require('./lib/logparser.js'),
-	//	We always load this proxy, though you can set it to not autostart
+	//	We always load these proxies, though you can set them to not autostart
 	requireproxy = require('./lib/proxies/require.proxy.js'),
+	asyncproxy = require('./lib/proxies/async.proxy.js'),
+
 	options = {
 		appName: null,
-		proxies: ['async'],
+		proxies: [],
 		log: {
 			path: "./",
 			name: "log.json",
@@ -81,25 +84,25 @@ module.exports.init = function (args) {
         }]
     });
 
-	//	Grab any extra proxies
-	for(var i = 0; i < options.proxies; i += 1) {
-		var proxyPath = './lib/proxies/' + options.proxies[i] + '.proxy.js';
+	//	Grab any defined proxies
+	for(var i = 0; i < options.proxies.length; i += 1) {
+		var proxyPath = path.resolve(__dirname, './lib/proxies/' + options.proxies[i] + '.proxy.js');
 		try {
 			fs.accessSync(proxyPath);
 		} catch (e) {
 			// Must be external
 			proxyPath = options.proxies[i];
 		}
-		result[options.proxies[i]] = require(proxyPath);
-
 		//	Initialise our proxy
-		result[options.proxies[i]].init(emit);
+		result[options.proxies[i]] = require(proxyPath).init(emit);
 	}
 
-	//	Setup the require proxy last, so 
+	asyncproxy = asyncproxy.init(options.proxy, emit);
+	//	Setup the require proxy last, so
 	//	nothing is logged incorrectly
-    requireproxy.init(options.proxy, emit);
+    requireproxy = requireproxy.init(options.proxy, emit);
 
+	result.async = asyncproxy;
     result.require = requireproxy;
 	result.cpu = cpuProfiler;
     result.heap = heapProfiler;
