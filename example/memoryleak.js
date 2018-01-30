@@ -1,6 +1,4 @@
-var ct = require('../').init({
-	appName: "Leaky boat"
-});
+var ct = require('../').init({ appName: "Leaky boat" });
 
 console.log('Get leaky module...');
 
